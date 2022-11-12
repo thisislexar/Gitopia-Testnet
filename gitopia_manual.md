@@ -108,7 +108,7 @@ sudo systemctl enable gitopiad
 sudo systemctl restart gitopiad && journalctl -u gitopiad -f -o cat
 ```
 
-# Snapshot yüklüyoruz.
+# Dilerseniz StateSync yükleyebilirsiniz.
 
 ```
 SNAP_RPC=https://gitopia-testnet-rpc.polkachu.com:443
