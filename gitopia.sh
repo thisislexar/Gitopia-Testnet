@@ -55,7 +55,6 @@ git clone -b v1.2.0 gitopia://gitopia/gitopia
 cd gitopia 
 make install
 
-okp4d version
 
 gitopiad config chain-id $GITOPIA_CHAIN_ID
 gitopiad config keyring-backend test
