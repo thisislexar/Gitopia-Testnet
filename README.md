@@ -45,6 +45,10 @@ Node bilginizi geliştirmek adına dilerseniz [Manuel Kurulum](https://github.co
 gitopiad status 2>&1 | jq .SyncInfo
 ``` 
 
+![image](https://user-images.githubusercontent.com/101462877/201514358-41303e3f-6c51-4f12-b3e3-49bcecb3770c.png)
+
+Yukarıdaki fotodaki gibi sync durumu false olduysa devam edebilirsiniz, hala true ise bekleyin false olduktan sonra devam edin
+
 ## Cüzdan oluşturalım.
 ```
 gitopiad keys add <CÜZDANADI>
