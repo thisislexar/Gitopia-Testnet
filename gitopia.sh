@@ -35,7 +35,7 @@ sleep 1
 
 if ! [ -x "$(command -v go)" ]; then
   cd
-  ver="1.18.5"
+  ver="1.18.3"
   wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz"
   sudo rm -rf /usr/local/go
   sudo tar -C /usr/local -xzf "go$ver.linux-amd64.tar.gz"
