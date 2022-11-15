@@ -120,4 +120,5 @@ sudo systemctl daemon-reload
 systemctl restart systemd-journald.service
 sudo systemctl enable gitopiad
 sudo systemctl restart gitopiad
+source $HOME/.bash_profile
 journalctl -u gitopiad -f -o cat
