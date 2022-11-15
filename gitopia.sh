@@ -120,7 +120,7 @@ sudo systemctl daemon-reload
 systemctl restart systemd-journald.service
 sudo systemctl enable gitopiad
 sudo systemctl restart gitopiad
-
+source $HOME/.bash_profile
 
 
 echo -e "\e[1m\e[32m4. StateSync yukleniyor.. \e[0m"
